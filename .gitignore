@@ -1,0 +1,9 @@
+*
+!*/
+!starship.toml
+!.gitignore
+!README.md
+!kitty/**
+!waybar/**
+!hypr/**
+!wofi/**
