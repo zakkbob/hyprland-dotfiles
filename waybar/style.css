@@ -57,10 +57,20 @@ window#waybar {
 
 /* Clock */
 #clock {
+    transition: ease-in-out color 0.15s;
+    color: transparent;
+}
+
+#clock:hover {
     color: @red;
 }
 
 #clock.date {
+    transition: ease-in-out color 0.15s;
+    color: transparent;
+}
+
+#clock.date:hover {
     color: @purple;
 }
 
