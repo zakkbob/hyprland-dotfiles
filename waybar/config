@@ -1,5 +1,5 @@
 {
-    "height": 32,
+    "height": 40,
     "spacing": 0,
     "reload_style_on_change": true,
     "modules-left": [
@@ -7,10 +7,10 @@
         "custom/media"
     ],
     "modules-center": [
-        "hyprland/window"
     ],
     "modules-right": [
         "network",
+	"idle_inhibitor",
         "pulseaudio",
         "clock",
         "clock#date",
@@ -38,18 +38,18 @@
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
-            "activated": "",
-            "deactivated": ""
+            "activated": "\uf06e",
+            "deactivated": "\uf070"
         }
     },
     "tray": {
         "spacing": 10
     },
     "clock": {
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "",
     },
     "clock#date": {
-        "format": "{:%d.%m.%Y}",
+        "format": "{:%d/%m/%y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "backlight": {
